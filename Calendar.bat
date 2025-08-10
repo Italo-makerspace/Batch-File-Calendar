@@ -48,7 +48,7 @@ if %mes%==10 set dias=31
 if %mes%==11 set dias=30
 if %mes%==12 set dias=31
 
-echo O numero de dias no mes %mes% do ano %ano% é %dias%.
+echo The number of days in month %mes% of year %ano% is %dias%.
 
 for /L %%i in (1,1,%dias%) do (
     mkdir %%i
